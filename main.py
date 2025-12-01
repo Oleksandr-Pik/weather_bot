@@ -16,7 +16,6 @@ load_dotenv()
 
 token = os.getenv("TG_TOKEN")
 admin_id = os.getenv("ADMIN_ID")
-super_admin_id = 731044153
 
 bot = Bot(token=token)
 dp = Dispatcher()
@@ -35,7 +34,7 @@ dp.include_routers(
 
 async def start_bot(*_):
     print("Бот стартує...")
-    await bot.send_message(super_admin_id, text="Бот запущено")
+    await bot.send_message(admin_id, text="Бот запущено")
 
 
 dp.startup.register(start_bot)
