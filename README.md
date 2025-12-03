@@ -65,6 +65,7 @@ venv\Scripts\activate          # Windows
 ```bash
 
 pip install -r requirements.txt
+
 ```
 
 4. Create the .env file:
