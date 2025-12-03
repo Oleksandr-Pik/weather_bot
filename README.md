@@ -53,65 +53,61 @@ weather_bot/
 
 2. Create and activate a virtual environment:
 
-bash
+```bash
 
 python -m venv venv
 source venv/bin/activate       # Linux / macOS
 venv\Scripts\activate          # Windows
+```
 
 3. Install dependencies:
 
-bash
+```bash
 
 pip install -r requirements.txt
+```
 
 4. Create the .env file:
 
-env
+```env
 
 TELEGRAM_TOKEN=your_telegram_token_here
 WEATHER_API_KEY=your_weather_api_key_here
 ADMIN_ID=your_telegram_id
+```
 
 5. Run the bot:
 
-bash
-
+```bash
 python main.py
+```
 
 ## Usage
 
-Send /start to begin
-
-Follow the prompts to register your name and city (optional)
-
-Type any city name to get the current weather
-
-Share your location to get weather for your exact coordinates
+- Send /start to begin
+- Follow the prompts to register your name and city (optional)
+- Type any city name to get the current weather
+- Share your location to get weather for your exact coordinates
 
 ## Technologies Used
 
-Aiogram — Telegram Bot API framework
-
-Aiohttp — async HTTP requests
-
-Requests — sync HTTP requests
-
-SQLite — local data storage
-
-python-dotenv — environment variable management
+- Aiogram — Telegram Bot API framework
+- Aiohttp — async HTTP requests
+- Requests — sync HTTP requests
+- SQLite — local data storage
+- python-dotenv — environment variable management
 
 ## Future Improvements
 
-Multi-language support
+- Multi-language support
 
-3-day or 7-day forecast
+- 3-day or 7-day forecast
 
-Inline buttons with quick city selection
+- Inline buttons with quick city selection
 
-Improved error handling
+- Improved error handling
 
-Weather icons & formatted messages
+- Weather icons & formatted messages
 
 ## License
 
