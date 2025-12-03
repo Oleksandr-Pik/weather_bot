@@ -14,7 +14,7 @@ Built with **Python** and **Aiogram**.
 - Structured and scalable project architecture
 
 ## Project Structure
-
+```
 weather_bot/
 │
 ├── filters/ # Custom filters (e.g., admin checking)
@@ -36,6 +36,7 @@ weather_bot/
 ├── .env.example # Example environment configuration
 ├── requirements.txt # Project dependencies
 └── README.md
+```
 
 ## Requirements
 
